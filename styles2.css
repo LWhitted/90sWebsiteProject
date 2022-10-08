@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/aboutme.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-color: black;
+    font-family: optima ;
+
+  }
+
+  #Header {
+    opacity: .8;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  #AboutMeP {
+    text-align: center;
+    opacity: .70;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  #NavBox {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  h1, p {
+    display: table;
+    margin: 0px auto 0px auto;
+    background-color: pink;
+    
+  }
