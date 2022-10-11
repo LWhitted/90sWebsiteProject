@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: optima ;
+    color: white;
+    padding:0;
+    margin:0;
+}
+
+.brickgametable {
+    display: inline-grid;
+    grid-template-columns: repeat(12);
+    grid-template-rows: repeat(20);
+    border: 1px solid white;
+}
+
+.SCORE {
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid white;
+    /* width: 1090px;
+    height: 50px; */
+    width: 100vw;
+}
+.redminis {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    text-align: center;
+    background-color: red;
+
+}
+.yellowminis {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    text-align: center;
+    background-color: yellow;
+    height: 20px;
+
+}
+.blackbox1 {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    text-align: center;
+    height: 50px;
+
+}
+.blackbox2 {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    text-align: center;
+    height: 50px;
+
+}
+.greenminis {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    text-align: center;
+    background-color: green;
+    height: 20px;
+
+}
+.blueSquares {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    text-align: center;
+    background-color: blue;
+    height: 20px;
+
+}
+
+.blackbox3 {
+    /* width: 100px;
+    height: 50px; */
+    border: 2px solid white;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 13 ;
+    grid-row-end:24;
+    text-align: center;
+
+
+}
