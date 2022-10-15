@@ -4,21 +4,23 @@ body {
     color: white;
     padding:0;
     margin:0;
+    /* height: 1000px; */
 }
 
 .brickgametable {
-    display: inline-grid;
-    grid-template-columns: repeat(12);
-    grid-template-rows: repeat(20);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     border: 1px solid white;
+    height: 350px;
 }
 
 .SCORE {
     text-align: right;
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 13;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 2; */
     border: 1px solid white;
     /* width: 1090px;
     height: 50px; */
@@ -27,7 +29,7 @@ body {
 .redminis {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     text-align: center;
     background-color: red;
 
@@ -35,64 +37,53 @@ body {
 .yellowminis {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     text-align: center;
     background-color: yellow;
-    height: 20px;
-
 }
 .blackbox1 {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
     text-align: center;
-    height: 50px;
-
+}
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: white;
 }
 .blackbox2 {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     grid-column-start: 9;
     grid-column-end: 11;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
     text-align: center;
-    height: 50px;
-
+    display: flex;
+    justify-content:end;
 }
 .greenminis {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     text-align: center;
     background-color: green;
-    height: 20px;
-
 }
 .blueSquares {
     /* width: 100px;
     height: 50px; */
-    border: 2px solid white;
+    border: 1px solid white;
     text-align: center;
     background-color: blue;
-    height: 20px;
-
 }
 
-.blackbox3 {
-    /* width: 100px;
-    height: 50px; */
-    border: 2px solid white;
-    grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 13 ;
-    grid-row-end:24;
-    text-align: center;
-
-
+#three {
+   margin-left: 100px;
+   margin-top: 25px;
 }
